@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.TweetActivity">
+
+
+    <item
+        android:id="@+id/socialList"
+        android:title="@string/social_messages"
+        android:visible="true"/>
+
+
+    <item
+        android:id="@+id/followingTweets"
+        android:title="@string/followingmes"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/tweetList"
+        android:title="@string/TweetsList"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="always"
+        android:title="@string/refresh"/>
+
+
+    <item
+        android:id="@+id/plus_sign"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/plus_sign"
+        app:showAsAction="always"/>
+
+
+</menu>

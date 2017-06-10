@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:textSize="30dp"
+        android:id="@+id/userName"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/newUsername"
+        android:hint="@string/newUsername"
+        android:textColorHint="#c55a5a"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="95dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="35dp"
+        android:id="@+id/enterPassword"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/newPassword"
+        android:hint="@string/newPassword"
+        android:textColorHint="#c55a5a"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:id="@+id/update"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#be6c6c" />
+
+</LinearLayout>

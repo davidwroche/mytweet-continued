@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="@string/folltweetuser"
+        android:textSize="23dp"
+        android:id="@+id/followuser"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#bc820f" />
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:text="@string/folltweetmessage"
+        android:textSize="17dp"
+        android:id="@+id/followmessage" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/socialList"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Urfollowing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Who your following"
+        android:id="@+id/Urfollowing"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:typeface="sans"
+        android:drawableTint="@android:color/holo_red_light"
+        android:backgroundTint="#5e3bdd"
+        android:textColor="#c4ab3a" />
+</RelativeLayout>
